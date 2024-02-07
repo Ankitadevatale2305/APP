@@ -293,3 +293,10 @@ nav{
     font-weight: 600;
     font-size: 18px;
 }
+
+@media (max-width:425px){
+  .row {
+    display: flex;
+    flex-direction: column;
+}
+}
