@@ -299,4 +299,17 @@ nav{
     display: flex;
     flex-direction: column;
 }
+button {
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+   .publisher {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
 }
