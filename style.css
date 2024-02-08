@@ -293,12 +293,6 @@ nav{
     font-weight: 600;
     font-size: 18px;
 }
-
-@media (max-width:425px){
-  .row {
-    display: flex;
-    flex-direction: column;
-}
 button {
     padding: 10px 20px;
     background: #000;
@@ -307,6 +301,13 @@ button {
     border-radius: 30px;
     cursor: pointer;
 }
+
+@media (max-width:425px){
+  .row {
+    display: flex;
+    flex-direction: column;
+}
+
    .publisher {
     display: flex;
     align-items: center;
